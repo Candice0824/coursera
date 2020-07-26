@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+p {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#chicken, #beef, #sushi {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #999999;
+  overflow: hidden;
+  background-color: #999999;
+}
+#chicken:hover, #beef:hover, #sushi:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#chicken span, #beef span, #sushi span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: #000000;
+  opacity: .8;
+}
+/* END HOME PAGE */
